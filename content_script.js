@@ -1,7 +1,8 @@
 /** @format */
 
 async function main() {
-  document.getElementById("limit-overlay");
+  const elements = document.getElementsByClassName("limit-overlay");
+  elements[0].parentNode.removeChild(elements[0]);
 }
 
 main();

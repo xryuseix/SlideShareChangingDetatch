@@ -2,12 +2,12 @@
   "name": "Slide Share Changing Detatch",
   "version": "1.0",
   "author": "xryuseix",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Slide Shareで有料化した閲覧機能を回避する",
   "content_scripts": [
     {
       "js": ["content_script.js"],
-      "matches": ["https://www.slideshare.net/*"]
+      "matches": ["http://www.slideshare.net/*", "https://www.slideshare.net/*"]
     }
   ]
 }
